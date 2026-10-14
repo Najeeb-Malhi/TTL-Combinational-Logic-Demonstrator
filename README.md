@@ -1,53 +1,57 @@
-TTL-Based Combinational Logic Demonstrator
 
-An initial hands-on project in Digital Logic Design, exploring how TTL logic ICs can be used to implement and verify Boolean functions.
+# TTL-Based Combinational Logic Function Demonstrator
 
-Built and tested on a digital logic trainer using the 74151, 74138, and 7408 ICs.
+An initial hands-on Digital Logic Design project exploring Boolean logic implementation using 74xx-series TTL ICs.
 
-What I Built
+## Project Overview
 
-- 74151 — 8:1 Multiplexer: Verified multiplexing and implemented a 3-input XOR function and a majority function by configuring the data inputs.
-- 74138 — 3:8 Decoder: Explored binary decoding and active-low outputs.
-- 7408 — AND Gates: Combined decoder outputs to implement and verify a Boolean function.
+Built and tested on a digital logic trainer using three ICs:
 
-Logic Functions Implemented
+| IC | Function |
+|---|---|
+| 74151 | 8:1 Multiplexer |
+| 74138 | 3:8 Active-Low Decoder |
+| 7408 | Quad 2-Input AND Gate |
 
-- 3-input XOR: (F = A \oplus B \oplus C)
-- 3-input Majority: (F = AB + AC + BC)
-- Decoder-based function: (F = B), implemented using the 74138 and 7408.
+## Implemented Functions
 
-All functions were tested against their expected truth tables.
+### 1. 74151 — Multiplexer-Based Logic
+- Verified basic 8:1 multiplexing.
+- Implemented and verified 3-input XOR: `F = A ⊕ B ⊕ C`
+- Implemented and verified 3-input majority: `F = AB + AC + BC`
 
-Hardware Setup
+### 2. 74138 + 7408 — Decoder-Based Logic
+- Verified 3-to-8 decoding and active-low outputs.
+- Combined decoder outputs using three AND gates to implement a Boolean function.
+- Verified the output against all eight input combinations.
 
-The circuits were assembled on a digital logic trainer using its built-in switches and LEDs.
+## Hardware Setup
 
-Circuit Photos
+The circuits were assembled using a digital logic trainer's built-in switches and LEDs.
 
-74151 Multiplexer
+## Project Photos
 
-"74151 Multiplexer" (images/01-74151-multiplexer.jpg)
+### 74151 Multiplexer
+![74151 Multiplexer](images/01-74151-multiplexer.jpg)
 
-74138 Decoder
+### 74138 Decoder
+![74138 Decoder](images/02-74138-decoder.jpg)
 
-"74138 Decoder" (images/02-74138-decoder.jpg)
+### Combined Decoder and Logic Gates
+![Final Logic Circuit](images/03-final-combinational-logic.jpg)
 
-Decoder-Based Logic — 74138 + 7408
-
-"Final Logic Circuit" (images/03-final-combinational-logic.jpg)
-
-Key Takeaways
+## Key Learnings
 
 - Boolean-function implementation using multiplexers
-- Active-low logic and binary decoding
+- Binary decoding and active-low logic
 - Combining TTL ICs to build combinational circuits
-- Hardware verification using truth tables
+- Hardware testing using truth tables
 
-What's Next?
+## Future Work
 
-Exploring more advanced digital hardware, including arithmetic circuits, ALUs, and eventually CPU design.
+Exploring arithmetic circuits, ALUs, and eventually 8-bit CPU design.
 
 ---
 
-Built by: Muhammad Najeeb
+**Author:** Muhammad Najeeb  
 Computer Engineering Student | UET Lahore
