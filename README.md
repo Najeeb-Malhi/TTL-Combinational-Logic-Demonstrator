@@ -20,10 +20,11 @@ Built and tested on a digital logic trainer using three ICs:
 - Implemented and verified 3-input XOR: `F = A ⊕ B ⊕ C`
 - Implemented and verified 3-input majority: `F = AB + AC + BC`
 
+
 ### 2. 74138 + 7408 — Decoder-Based Logic
-- Verified 3-to-8 decoding and active-low outputs.
-- Combined decoder outputs using three AND gates to implement a Boolean function.
-- Verified the output against all eight input combinations.
+- Verified 3-to-8 decoding using the 74138 active-low decoder.
+- Combined decoder outputs using three 7408 AND gates to construct a 4-input AND function.
+- Implemented and verified the Boolean function `F = B` using all eight input combinations.
 
 ## Hardware Setup
 
