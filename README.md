@@ -33,13 +33,13 @@ The circuits were assembled using a digital logic trainer's built-in switches an
 ## Project Photos
 
 ### 74151 Multiplexer
-![74151 Multiplexer](images/01-74151-multiplexer.jpg)
+![74151 Multiplexer](images/01-74151-multiplexer.jpeg)
 
 ### 74138 Decoder
-![74138 Decoder](images/02-74138-decoder.jpg)
+![74138 Decoder](images/02-74138-decoder.jpeg)
 
 ### Combined Decoder and Logic Gates
-![Final Logic Circuit](images/03-final-combinational-logic.jpg)
+![Final Logic Circuit](images/03-final-combinational-logic.jpeg)
 
 ## Key Learnings
 
